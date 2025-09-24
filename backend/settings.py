@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#b+y-5u-@yt+czhicz+p%25!h9$)r0k1-&_vd@r%d7%f)ak$)-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 # Application definition
@@ -132,6 +132,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ALLOWED_ORIGINS = [
+    "https://final-project-react-frontend.vercel.app/",
     "http://localhost:5173",
     "http://127.0.0.1:5173",  # Vite development server
 ]
